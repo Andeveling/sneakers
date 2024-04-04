@@ -7,7 +7,7 @@ Esta es una API RESTful para una tienda de zapatillas, construida utilizando Nod
 1. Clona este repositorio:
 
    ```
-   git clone https://github.com/Andeveling/sneakers-api.git
+   git clone https://github.com/Andeveling/sneakers.git
    ```
 
 2. Instala las dependencias:
