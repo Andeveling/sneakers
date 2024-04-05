@@ -6,4 +6,4 @@ const specialPriceSchema = new mongoose.Schema({
   specialPriceDiscount: { type: Number, required: true }
 })
 
-export const SpecialPriceModel = mongoose.model("SpecialPrice", specialPriceSchema)
+export const SpecialPriceModel = mongoose.models.SpecialPrice || mongoose.model("SpecialPrice", specialPriceSchema)

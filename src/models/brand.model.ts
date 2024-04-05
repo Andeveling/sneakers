@@ -5,4 +5,4 @@ const brandSchema = new mongoose.Schema({
   products: [{ type: mongoose.Types.ObjectId, ref: "Product", default: [] }]
 })
 
-export const Brand = mongoose.model("Brand", brandSchema)
+export const Brand =  mongoose.models.Brand || mongoose.model("Brand", brandSchema)
